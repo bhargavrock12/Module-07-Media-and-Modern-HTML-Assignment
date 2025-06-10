@@ -1,0 +1,16 @@
+5. Write a short note on tabindex.
+
+Answer:
+
+The `tabindex` attribute in HTML is used to control the order in which elements receive keyboard focus when the user navigates using the Tab key. It plays an important role in improving keyboard accessibility.
+
+There are three main ways to use tabindex:
+
+1. tabindex="0"  
+   Adds the element to the natural tab order of the page. It makes normally non-focusable elements (like <div>) focusable in a logical sequence based on the document structure.
+
+2. tabindex="-1"  
+   Removes the element from the normal tab order, but it can still be focused using JavaScript or scripts. Useful for modals or elements that need to be focused programmatically.
+
+3. tabindex="positive number"  
+   Specifies an explicit tab order. Lower numbers are focused before higher numbers. However, using positive values is discouraged as it can create a confusing user experience if not managed properly.

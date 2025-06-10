@@ -1,0 +1,22 @@
+6. List any 5 semantic tags in HTML along with their descriptions.
+
+Answer:
+
+Semantic HTML tags clearly describe the meaning and purpose of the content they contain. These tags help developers, browsers, and assistive technologies interpret the structure of a webpage more effectively.
+
+Here are five semantic tags and their descriptions:
+
+1. <section>  
+   Defines a distinct section of content within a page. It is often used to group related content, such as a group of articles or a chapter in a document.
+
+2. <aside>  
+   Represents content that is indirectly related to the main content. It’s commonly used for sidebars, tips, advertisements, or links that complement the main article.
+
+3. <figure>  
+   Used to enclose media elements like images, diagrams, or charts. It often works with the <figcaption> tag to provide a caption or explanation.
+
+4. <mark>  
+   Highlights or marks specific text that is important or relevant, such as search terms in a search result.
+
+5. <time>  
+   Indicates a specific time or date, allowing browsers or search engines to interpret time-related information in a standardized format.
